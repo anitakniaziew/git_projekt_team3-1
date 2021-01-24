@@ -1,6 +1,6 @@
 # RWD Page for ALK Course
 
-![movies_browser-demo](img\ALK-team3.gif)
+![ALK RWD Page](img\ALK-team3-v2.gif)
 <br>
 <br>
 ## Demo
