@@ -70,8 +70,9 @@ body {
     margin-bottom: 0;
 }
 
-.features-list {
-    list-style: none;
+.features-list{
+  list-style: none;
+  font-size: 1.1rem;
 }
 
 #features .line {
