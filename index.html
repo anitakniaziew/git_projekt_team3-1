@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>RWD - schemat strony</title>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="css/fixed.css" />
 </head>
@@ -71,25 +73,26 @@
         target="_blank">
         Przekieruj mnie do ALK!</a>
     </div>
-
-    <form>
+    <hr class="line">
+    <form class="needs-validation">
+      <h2 class="text-center">Zapisz się na kurs</h2>
       <div class="row">
         <div class="col-md-6 mb-10">
           <label for="firstName" class="form-label">Imię</label>
-          <input type="text" class="form-control" id="firstName" placeholder="Podaj swoje imię">
+          <input type="text" class="form-control" id="firstName" placeholder="Podaj swoje imię" required>
         </div>
         <div class="col-md-6 mb-10">
           <label for="lastName" class="form-label">Nazwisko</label>
-          <input type="text" class="form-control" id="lastName" placeholder="Podaj swoje nazwisko">
+          <input type="text" class="form-control" id="lastName" placeholder="Podaj swoje nazwisko" required>
         </div>
       </div>
       <div class="col-md-12 mb-10">
         <label for="emailInput" class="form-label">Adres e-mail</label>
-        <input type="email" class="form-control" id="emailInput" placeholder="e-mail">
+        <input type="email" class="form-control" id="emailInput" placeholder="e-mail" required>
       </div>
       <div class="col-12">
         <div class="mb-10 form-check">
-          <input type="checkbox" class="form-check-input" id="agreementsCheck">
+          <input type="checkbox" class="form-check-input" id="agreementsCheck" required>
           <label class="form-check-label" for="agreementsCheck">Wyrazam zgodę na przetwarzanie moich danych osobowych do
             celów rekrutacji</label>
         </div>
@@ -108,9 +111,9 @@
       <h2>Poznaj gorące technologie:</h2>
       <ul class="features-list">
         <li><i class="fab fa-html5"></i> Tworzenie layoutów html/css</li>
-				<li><i class="fab fa-js-square"></i> Programowanie w Javascript wg. EC</li>
-				<li><i class="fab fa-react"></i> React</li>
-				<li><i class="fab fa-react"></i> React Native</li>
+        <li><i class="fab fa-js-square"></i> Programowanie w Javascript wg. EC</li>
+        <li><i class="fab fa-react"></i> React</li>
+        <li><i class="fab fa-react"></i> React Native</li>
       </ul>
       <hr class="line">
     </div>
