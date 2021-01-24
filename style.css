@@ -72,6 +72,7 @@ body {
 
 .features-list {
   list-style: none;
+  font-size: 1.1rem;
 }
 
 #features .line {
@@ -90,19 +91,24 @@ body {
 
 /* Clients */
 .client {
-  max-width: 90%;
-  border-radius: 50%;
+    max-width: 90%;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+.client:hover {
+    transform: scale(1.2);
 }
 
 .blockquote p {
-  width: 70%;
-  font-size: 0.7em;
-  margin: 0 auto;
+    width: 70%;
+    font-size: 0.7em;
+    margin: 0 auto;
 }
 
 /* Footer  */
 footer {
-  border: 2px dashed darkgrey;
+    border: 2px dashed darkgrey;
 }
 
 footer,
